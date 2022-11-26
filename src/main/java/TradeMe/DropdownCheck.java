@@ -1,4 +1,4 @@
-package TradeMe;
+package main.java.TradeMe;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +18,6 @@ public class DropdownCheck {
         @BeforeTest
         public void setUp() {
             // Launch Browser
-            System.out.println("launching TradeMe website");
             driver.get("https://www.trademe.co.nz");
             driver.manage().window().maximize();
         }
