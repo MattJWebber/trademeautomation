@@ -5,15 +5,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
-public class TradeMe {
+public class SearchBmw {
     public static void main(String[] args) {
 
         System.setProperty("webdriver.chrome.driver", "C:\\seleniumjarsdrivers\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
 
         // Launch Browser
+        System.out.println("launching TradeMe website");
         driver.get("https://www.trademe.co.nz");
         driver.manage().window().maximize();
 
@@ -21,7 +22,7 @@ public class TradeMe {
         driver.findElement(By.xpath("/html/body/tm-root/div[1]/main/div/tm-dynamic-homepage/tm-homepage-search-header/nav/div[2]/ul/li[3]/a")).click();
 
         // Wait 3 seconds. Allowing dynamic elements to load on page
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
         // Enter text for BMW in the 'Keyword' field
         driver.findElement(By.name("keyword")).sendKeys("BMW"+ "\n");
@@ -32,18 +33,8 @@ public class TradeMe {
         // Results showing number of cars
         System.out.println(e.getText());
 
-
-
-
-        // Enter text for Ferrari in the 'Keyword' field
-
-        // Enter text for Honda in the 'Keyword' field
-
-        // Enter text for Mazda in the 'Keyword' field
-
-        // Select 'Search' button
-
-//        driver.quit();
+        // Close Browser
+        driver.quit();
     }
 }
 

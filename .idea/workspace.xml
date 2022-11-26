@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcf668c5-ef00-455f-9131-cb12cc72b978" name="Changes" comment="" />
+    <list default="true" id="dcf668c5-ef00-455f-9131-cb12cc72b978" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TradeMe/DropdownCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TradeMe/DropdownCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TradeMe/SearchBmw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TradeMe/SearchBmw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TradeMe/SearchFerrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TradeMe/SearchFerrari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TradeMe/SearchHonda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TradeMe/SearchHonda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TradeMe/SearchMazda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TradeMe/SearchMazda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trademeautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trademeautomation.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hxomf2yMphbXrqTAUVGljddb3X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,18 +36,109 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/MatthewWebber/Downloads/selenium-server-4.6.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.DropdownCheck">
+    <configuration name="DropdownCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TradeMe.DropdownCheck" />
+      <module name="trademeautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TradeMe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sampleapp.HelloWorld" />
+      <module name="trademeautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TradeMe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBmw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TradeMe.SearchBmw" />
+      <module name="trademeautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TradeMe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchFerrari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TradeMe.SearchFerrari" />
+      <module name="trademeautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TradeMe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <module name="trademeautomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DropdownCheck" />
+        <item itemvalue="Application.SearchBmw" />
+        <item itemvalue="Application.SearchFerrari" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.SeleniumTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="dcf668c5-ef00-455f-9131-cb12cc72b978" name="Changes" comment="" />
       <created>1669236258826</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669236258826</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
